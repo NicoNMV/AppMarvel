@@ -48,6 +48,10 @@ public class TelaFav extends Activity{
         Intent nav1 = new Intent(TelaFav.this, TelaHero.class);
         startActivity(nav1);
     }
+    public void TelaFav(View view){
+        Intent nav6 = new Intent(TelaFav.this, TelaFav.class);
+        startActivity(nav6);
+    }
     public void TelaQuiz(View view){
         Intent nav2 = new Intent(TelaFav.this, TelaQuiz.class);
         startActivity(nav2);

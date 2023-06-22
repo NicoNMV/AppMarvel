@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
@@ -167,10 +168,10 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        tools:layout_editor_absoluteY="0dp"
         android:layout_width="411dp"
         android:layout_height="60dp"
-        android:background="@color/red1">
+        android:background="@color/red1"
+        tools:layout_editor_absoluteY="0dp">
 
         <ImageButton
             android:id="@+id/BtnBack"

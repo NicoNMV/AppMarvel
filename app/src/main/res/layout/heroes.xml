@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -30,7 +30,6 @@
 
         <ImageButton
             android:id="@+id/searchButton"
-            android:onClick="searchButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
@@ -38,6 +37,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="2dp"
             android:background="@color/sf"
+            android:onClick="searchButton"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/requestTag"
@@ -46,6 +46,7 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -55,9 +56,8 @@
             android:id="@+id/linear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:gravity="center"
-            />
+            android:orientation="horizontal" />
 
         <ListView
             android:id="@+id/characterListView"

@@ -24,7 +24,7 @@ public class TelaResultado extends AppCompatActivity {
         userScore += answerValue;
 
         // Exibir a pontuação final no botão
-        scoreButton.setText("Pontuação final: " + userScore);
+        scoreButton.setText(userScore + "/5");
     }
 
     public void Back(View view){
