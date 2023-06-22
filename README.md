@@ -13,6 +13,8 @@
 
 Protótipo: https://ibb.co/RDMBJtJ;
 
+Vídeo: https://drive.google.com/file/d/1k48qLK37LCGZBGRa2Cy_Tjmv8wxaWOiy/view?usp=drivesdk
+
 Diagrama de Classe: https://ibb.co/Qpgbz9v;
 
 Diagrama ER: https://ibb.co/4Wvbz3m;
